@@ -64,7 +64,7 @@ void plutoPilot()
 
 		}
 
-
+                Control.setRC(RC_PITCH, 1650);
 
 		}
 		else
@@ -82,11 +82,7 @@ void plutoPilot()
 			}
 
 
-			else if(!isFlipset)
-			{
-
-	      Control.setRC(RC_PITCH, 50);
-			}
+			
 
 
 		}
