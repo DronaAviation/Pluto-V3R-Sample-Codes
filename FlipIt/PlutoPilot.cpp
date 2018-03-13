@@ -57,7 +57,7 @@ void plutoPilot()
 		{
 
 
-		if(flipTimer->start(2000)&&!shouldFlip)
+		if(flipTimer->start(500)&&!shouldFlip)
 		{
 
 			shouldFlip=true;
